@@ -12,10 +12,11 @@ RUN sudo apt-get update -y
 
 RUN sudo apt-get install freetype* -y 
 
+RUN sudo apt-get install httpie* -y 
+
 RUN sudo apt-get install -y  build-essential chrpath git-core libssl-dev libfontconfig1-dev
 
 RUN  \
-  git clone https://github.com/dilshod/xlsx2csv.git && \
   wget http://npmjs.org/install.sh | sh && \
   npm install jsreport && \
   npm install nodemailer && \ 
