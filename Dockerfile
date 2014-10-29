@@ -44,7 +44,7 @@ WORKDIR /reports
 
 RUN sudo apt-get install freetype* -y 
 
-RUN sudo apt-get install httpie* -y 
+RUN sudo apt-get install httpie -y 
 
 RUN sudo apt-get install -y  build-essential chrpath git-core libssl-dev libfontconfig1-dev
 
