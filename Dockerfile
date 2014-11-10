@@ -55,6 +55,7 @@ RUN  \
   npm install jsreport && \
   npm install nodemailer && \ 
   npm install cron && \
+  npm install http-server && \
   node node_modules/jsreport --init && \
   pip install --upgrade httpie
 
